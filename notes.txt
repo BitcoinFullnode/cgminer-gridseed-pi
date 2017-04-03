@@ -1,0 +1,4 @@
+For new Gridseed Blade
+--gridseed-options=baud=115200,freq=838,chips=40 --hotplug 5
+
+Power supply 12V 10A

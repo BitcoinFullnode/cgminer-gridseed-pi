@@ -1,0 +1,3 @@
+#!/bin/sh
+lsusb | grep "STM" | cut -c5-7,15-18,20-32
+

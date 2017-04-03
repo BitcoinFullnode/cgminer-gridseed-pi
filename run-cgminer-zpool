@@ -1,0 +1,4 @@
+#!/bin/sh
+# Example for mining on zpool (set usb port numbers and modify bitcoin wallet address)
+# http://zpool.ca/?address=1MDwAu8dY3t3kZv3AbEN2dJiN8ibg6y9Kp
+sudo ./cgminer --gridseed-options=baud=115200,freq=825,chips=5,modules=1,usefifo=0,btc=0 --hotplug=0 -o stratum+tcp://scrypt.mine.zpool.ca:3433 -u 1MDwAu8dY3t3kZv3AbEN2dJiN8ibg6y9Kp -p CGMINER --usb=$1:$2 --scrypt
